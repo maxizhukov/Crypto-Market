@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#filter {
+    width: 35%;
+}
+
+.portfolio {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.collapsible-body {
+    background: white;
+}
+p.collapsible-header {
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+tr td {
+    cursor: pointer;
+}
+
+.modal.open {
+    z-index: 1003;
+    display: block;
+    opacity: 1;
+    top: 30%;
+    transform: scaleX(1) scaleY(1);
+}
+
+.portfolio-row {
+    margin-bottom: auto;
+}
+
+form, form > div {
+    padding-left: 0 !important;
+}
